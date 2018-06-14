@@ -38,6 +38,7 @@ header {
   width: 100%;
   height: 80px;
   border-bottom: 1px solid seashell;
+  background-color: #000000;
 }
 
 .logo {
@@ -45,8 +46,8 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 nav span {
@@ -60,6 +61,10 @@ header nav {
 
 /* main content */
 
+.main-content {
+  justify-content: center;
+}
+
 .mission {
   display: flex;
   height: 700px;
@@ -67,7 +72,7 @@ header nav {
   justify-content: center;
 }
 
-.mission .image {
+.mission .mission-image {
   display: flex;
   background-image: url("../images/img-mission-background.jpg");
 }
@@ -79,5 +84,20 @@ header nav {
   width: 1200px;
   height:100px;
   margin-top: 350px;
+  justify-content: center;
+}
+
+/* middle section */
+
+.midlle-section {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+}
+
+.middle-gallery {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
   justify-content: center;
 }
