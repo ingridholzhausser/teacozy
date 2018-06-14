@@ -62,18 +62,24 @@ header nav {
 /* main content */
 
 .main-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
   justify-content: center;
 }
 
 .mission {
   display: flex;
+  width: 1200px;
   height: 700px;
   padding-top: 80px;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .mission .mission-image {
   display: flex;
+  width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
 }
 
@@ -89,15 +95,84 @@ header nav {
 
 /* middle section */
 
-.midlle-section {
+.middle-section {
   display: flex;
+  flex-direction: column;
   width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.middle-header {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.teagallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.caption {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* bottom section */
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height:500px;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.locations-header {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.middle-gallery {
+.boxes {
   display: flex;
-  width: 1000px;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 40px;
+  padding: 15px 0;
+}
+
+.location {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.address {
+  margin: 10px 0;
 }
